@@ -1,0 +1,17 @@
+/* body{
+    background-color: #000;
+} */
+.hidden-card {
+    display: none;
+  }
+  #selected-card{
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        background-color: white;
+        box-shadow: 2px 2px 10px #ccc;
+    
+  }
